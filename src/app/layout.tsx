@@ -1,3 +1,4 @@
+import Script from "next/script";
 import "./styles.css";
 
 export default function RootLayout({
@@ -7,7 +8,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        {process.env.NODE_ENV === "development" &&
+          process.env.PINY_VISUAL_SELECT === "true" && (
+            <Script src="/_piny/piny.phone.js" strategy="beforeInteractive" />
+          )}
+      </body>
     </html>
   );
 }

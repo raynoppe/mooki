@@ -1,9 +1,4 @@
-import {
-  BookOpenText,
-  FolderTree,
-  LayoutDashboard,
-  Newspaper,
-} from "lucide-react";
+import { FolderTree, LayoutDashboard, Newspaper } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -28,12 +23,12 @@ const AdminNavi = () => {
         </Tooltip>
         <Tooltip>
           <TooltipTrigger asChild>
-            <Link href="/mookie/pages" className="text-2xl font-bold">
-              <BookOpenText />
+            <Link href="/mookie/content">
+              <Newspaper />
             </Link>
           </TooltipTrigger>
           <TooltipContent className="ml-1 bg-black text-white" side="right">
-            <p>Pages</p>
+            <p>Content</p>
           </TooltipContent>
         </Tooltip>
         <Tooltip>

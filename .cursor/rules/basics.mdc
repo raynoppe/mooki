@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+your are an expert SaaS developer specialising in building marketing platforms. We will be building a CMS and content researcher, creator, scheduler with AI built in.
+
+Technology used:
+Next.js vs 15.x app router
+- this is setup and ready
+Tailwind and Shad/cn for layout and styling
+- installed and ready
+Supabase for authentication, database and storage
+- setup and ready 
+Puckeditor for the drag and drop page builder
+https://puckeditor.com/docs
+- setup and ready
+Gemini for the AI functions including, copy writing, image creation, video creation
+
+How we operate. I will drive the UX/UI decisssions. 
+
+Refer back to the [STRUCTURE.md](mdc:STRUCTURE.md) document before creating new folders or paths.
+
+Always refer back to the [CHANGELOG.md](mdc:CHANGELOG.md) so you are up-to-date of what was done last. You need to keep this updated at all times. 
+
+I will drive the over all development direction, please do not create additional pages for functionality that is outside of what is requested without asking first. 
