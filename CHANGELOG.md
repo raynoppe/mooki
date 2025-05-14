@@ -58,6 +58,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Addressed session management in protected routes
 - Fixed auth callback handling for magic links
 - Fixed Sheet z-index issue so the drawer always appears above the app background and content.
+- Resolved a TypeError in dynamic page routes by adding nullish checks for `root` and `props` when generating metadata titles.
+- Updated all usages of `getPage` in dynamic page routes to properly use `await`, as `getPage` is an async function.
 
 ## [0.1.0] - 2024-03-19
 

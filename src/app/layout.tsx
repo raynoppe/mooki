@@ -10,10 +10,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        {process.env.NODE_ENV === "development" &&
-          process.env.PINY_VISUAL_SELECT === "true" && (
-            <Script src="/_piny/piny.phone.js" strategy="beforeInteractive" />
-          )}
+        {process.env.PINY_VISUAL_SELECT === "true" && (
+          <Script src="/_piny/piny.phone.js" strategy="beforeInteractive" />
+        )}
       </body>
     </html>
   );

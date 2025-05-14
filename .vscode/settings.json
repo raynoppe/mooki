@@ -4,12 +4,22 @@
     "tw-external-config": {
       "external_source_url": null
     },
-    "source-folders": null,
-    "preview-url": "http://localhost:3000",
-    "ai-project-brief": null,
+    "source-folders": ["src"],
+    "preview-url": "https://localhost:3000/",
     "app-routes": {
-      "routes": ["/mookie/content/1"],
-      "current_route": "/mookie/content/1"
+      "routes": [
+        "/",
+        "/(auth-pages)/forgot-password",
+        "/(auth-pages)/sign-in",
+        "/(auth-pages)/sign-up",
+        "/mookie",
+        "/mookie/content",
+        "/mookie/content/1",
+        "/mookie/navigation",
+        "/page",
+        "/puck"
+      ],
+      "current_route": "/mookie"
     },
     "recent-classes": [
       "6",
@@ -46,6 +56,22 @@
       "[",
       "-",
       "h"
-    ]
+    ],
+    "component-settings": {
+      ".env.local:::Temp": {
+        "route": "/mookie"
+      }
+    },
+    "ai-project-brief": null,
+    "urls": {
+      "index.html": {
+        "open-page-views": [
+          {
+            "w": 1024,
+            "h": 0
+          }
+        ]
+      }
+    }
   }
 }
