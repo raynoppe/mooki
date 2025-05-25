@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Plugin used:
+https://github.com/brimdata/react-arborist 
+Icons to use is from react-lucide 
+Folders need to be saved in a table called folders in Supabase

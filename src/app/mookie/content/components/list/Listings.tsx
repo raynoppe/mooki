@@ -12,6 +12,7 @@ import {
   ChevronRight,
   FileText,
   Film,
+  Folder,
   MessageCircleHeart,
   Share2,
   Trash,
@@ -27,7 +28,9 @@ const MookieListings = () => {
       <Table>
         <TableHeader>
           <TableRow className="border-gray-300 bg-gray-100">
-            <TableHead>Title</TableHead>
+            <TableHead>...</TableHead>
+            <TableHead>Folder</TableHead>
+            <TableHead>Slug</TableHead>
             <TableHead>Date</TableHead>
             <TableHead>Status</TableHead>
             <TableHead>...</TableHead>
@@ -38,7 +41,11 @@ const MookieListings = () => {
             className="hover:bg-gray-100 border-gray-300 cursor-pointer"
             onClick={() => router.push("/mookie/content/1")}
           >
+            <TableCell>
+              <Folder />
+            </TableCell>
             <TableCell>The Best of Mookie</TableCell>
+            <TableCell>/</TableCell>
             <TableCell>24th April 2025</TableCell>
             <TableCell>Published</TableCell>
             <TableCell className="flex justify-end text-gray-300">

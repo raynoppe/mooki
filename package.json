@@ -28,6 +28,7 @@
     "next-auth": "^5.0.0-beta.26",
     "nodemailer": "^6.10.1",
     "react": "^19.0.0",
+    "react-arborist": "^3.4.3",
     "react-dom": "^19.0.0",
     "react-syntax-highlighter": "^15.6.1",
     "resend": "^4.4.0",

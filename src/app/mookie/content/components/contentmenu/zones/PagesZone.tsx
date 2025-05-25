@@ -45,7 +45,8 @@ const PagesZone = () => {
         isNew: true,
       });
       setItems(mapped);
-    } catch (err) {
+    } catch (error) {
+      console.error("Failed to fetch pages:", error);
       setItems([]);
     }
     setLoading(false);
